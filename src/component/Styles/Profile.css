@@ -1,0 +1,16 @@
+.textlightgrey {
+  color: #808080a1;
+}
+
+.text{
+    font-weight: 700;
+}
+.textBoldColor{
+     color: rgb(75 85 99 / 95%);
+}
+.hrColor{
+  color: gray;
+}
+.popusers >:hover{
+  background-color: rgb(226 232 240);
+}

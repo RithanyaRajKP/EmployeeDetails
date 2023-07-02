@@ -1,0 +1,56 @@
+.sidenav {
+  background: linear-gradient(180deg, #395bc8 0%, #5e3bc8 100%);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.sidenav > hr {
+  color: #5c58580c;
+  border-radius: 30px;
+}
+
+.sidenavlist > :hover {
+  color: white;
+}
+
+.sidenavlist {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
+.activeState {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+.activeState::after {
+  content: ">";
+  margin-left: 0px;
+  font-weight: bold;
+  background: #ffffff;
+  color: grey;
+  border-radius: 50px 1px 1px 50px;
+  padding: 6px 7px;
+  margin-right: -56px;
+}
+
+.notActive {
+  color: #f4f0f094;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.hrcolor{
+  border: 1px solid #e2e2e27a;
+}
+.openchat > :hover {
+  background-color: rgb(226 232 240);
+}
