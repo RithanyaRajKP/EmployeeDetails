@@ -17,7 +17,7 @@ function List() {
           Select an account
         </h5>
       </div>
-      <div className="h-[76%] overflow-y-scroll">
+      <div className="h-[46vh] overflow-y-scroll">
         {users &&
           users.map((user) => {
             return (
@@ -36,7 +36,7 @@ function List() {
                             alt="Neil image"
                           />
                         </div>
-                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                        <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
                           {user.name}
                         </p>
                       </div>
